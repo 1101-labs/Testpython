@@ -1,7 +1,13 @@
-print("This is my second project")
+import time
+
+name = input("What is your name? ")
+
+def timer():
+
+    time.sleep(10)
+
+    print(f"Hello {name}, nice to meet you!")
 
 
-print("This is an experiment")
-print("Yeah")
+timer()
 
-print("Hey man")
